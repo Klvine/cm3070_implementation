@@ -1,0 +1,115 @@
+{
+  "file": "arxiv_2608.17150v1.pdf",
+  "title": "K NOW S IM : Evaluating Information Calibration in LLM Assistants with User Simulators that Learn",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Information Systems",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.954
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.045
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.001
+      }
+    ]
+  },
+  "field": {
+    "label": "Human-Computer Interaction",
+    "alternatives": [
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.124
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.108
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.097
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Simulation",
+      "confidence": 0.924,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "Given an assistant model M , a question q with IU graph G q , and a user’s current knowledge level ℓ , we simulate a multi-turn conversation between M and the user initialized at s 0 ( ℓ ) , and compute calibration metrics from the resulting state trajectory s 0 , s 1 , . . . , s T ."
+        },
+        {
+          "section": "abstract",
+          "sentence": "To close 1 this gap, we introduce K NOW S IM , an evaluation framework built around a user simulator that maintains explicit knowledge states—a graph of Information Units with prerequisite relationships—that evolves under update rules grounded in learning theory."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 9
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.826,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We validate K NOW S IM against 705 human–AI sessions across two domains, stratified by knowledge level: its rankings align significantly with human judgments (73–74% sign agreement), outperforming three baseline simulators."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "We evaluate K NOW S IM along (i) alignment with human outcomes —whether the simulator reproduces human-derived condition rankings across metrics and knowledge levels, and (ii) comparison with baselines —how K NOW S IM ’s correlation with human rankings compares to that of baseline simulators on the metric common to all methods. 4.1 Simulator Methods We compare K NOW S IM against three baselines of"
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.625,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "To close 1 this gap, we introduce K NOW S IM , an evaluation framework built around a user simulator that maintains explicit knowledge states—a graph of Information Units with prerequisite relationships—that evolves under update rules grounded in learning theory."
+        },
+        {
+          "section": "introduction",
+          "sentence": "We introduce K NOW S IM , an evaluation framework centered on a knowledge-state-grounded user simulator."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "The dataset captures both objective learning outcomes and subjective perceptions of users with varying levels of knowledge interacting with assistants that employ different informationdelivery strategies and assistant models. 3.1 Tasks and Conditions We design four study arms crossing two factors— comparison target ( strategy vs. model ) and task ( math vs."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 30,
+    "two_column_pages": 29,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Knowledge-Grounded Simulator for",
+      "3 KNOW CHAT : A Benchmark of",
+      "4 Experiment Setup",
+      "5 Results",
+      "6 Comparing Assistants with KNOW SIM",
+      "7 Related Work",
+      "8 Conclusion",
+      "Limitations",
+      "References",
+      "A User Simulator Details"
+    ],
+    "segmentation": "headings"
+  }
+}

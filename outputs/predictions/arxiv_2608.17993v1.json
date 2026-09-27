@@ -1,0 +1,84 @@
+{
+  "file": "arxiv_2608.17993v1.pdf",
+  "title": "What Does It Mean and Why Should I Bother? Motivating Students to Write Better Commit Messages",
+  "arxiv_category_on_pdf": "cs.SE",
+  "discipline": {
+    "label": "Information Systems",
+    "alternatives": [
+      {
+        "label": "Information Systems",
+        "confidence": 0.608
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.383
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.007
+      }
+    ]
+  },
+  "field": {
+    "label": "Human-Computer Interaction",
+    "alternatives": [
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.144
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.138
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.069
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Survey",
+      "confidence": 0.769,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "This question examines WDYM as an educational intervention by analyzing participants’ awareness as it becomes visible through gameplay, survey responses, and reflections."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "Figure 4: The What do you mean...? game’s scoring logic To examine the effects of the WDYM game, we administered a set of surveys designed to capture participants’ perceptions, interpretations, and reflections related to commit-message communication."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Questionnaires",
+      "evidence": "We answer RQ1 by showing that communication and quality issues manifest frequently in (locally sampled) commit messages in both student and industrial case-study projects, with comparable categories of issues recurring across contexts, which validates prior observations by course instructors. 6.2 Awareness of Communication Issues after Gameplay In RQ2, awareness of communication issues is operatio"
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 11,
+    "two_column_pages": 10,
+    "sections": [
+      "Abstract (inline)",
+      "1. MOTIVATION",
+      "Abstract (inline)",
+      "2. RESEARCH QUESTIONS",
+      "3. BACKGROUND AND RELATED WORKS",
+      "4. EXPERIMENTAL DESIGN",
+      "5. REPLICATION PACKAGE",
+      "6. RESULTS",
+      "7. THREATS TO VALIDITY",
+      "8. DISCUSSION",
+      "9. FUTURE WORK",
+      "10. ACKNOWLEDGMENT",
+      "REFERENCES"
+    ],
+    "segmentation": "headings"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "file": "arxiv_2608.17928v1.pdf",
+  "title": "A Theoretical Framework for Parallel Lifelong MAPF Using Group Decentralized Planning",
+  "arxiv_category_on_pdf": "cs.MA",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.997
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.002
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.165
+      },
+      {
+        "label": "Robotics",
+        "confidence": 0.096
+      },
+      {
+        "label": "Other",
+        "confidence": 0.083
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.714,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "introduction",
+          "sentence": "Then, we propose our full extension to the RHCR framework that uses this group decentralized setting (GD-RHCR) in section 5, then formally prove this new framework non-trivially satisfies a similar guarantee to RHCR in section 6."
+        },
+        {
+          "section": "body",
+          "sentence": "After introducing our algorithm in the following section, we show in section 6 the theoretical results for our group decentralized method."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Formal Proof",
+      "confidence": 0.625,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "Modeling the MAPF problem as a LI-MDP has two consequences (1) leveraging techniques from the LI-MDP theory, we prove a near optimality guarantee for RHCR below (2) LI-MDP theory also suggests a near optimal group decentralized policy structure (see Theorem 3.1), which motivates our GD-RHCR framework."
+        },
+        {
+          "section": "body",
+          "sentence": "Near Optimality of RHCR: Under this model, if we assume that outputs a trajectory SOLV ER is -near SOLV ER τ s ϵ ∗ t optimal E SOLVER then, V 0 τ s [ t γ r ( s ( t ) , a ( t ))] ϵ − ≤ RHCR Theorem 4.1."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 16,
+    "two_column_pages": 15,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Related Works",
+      "3 Motivation: Natural Extension to RHCR",
+      "4 Theory: LI-MDP Analysis of RHCR",
+      "5 Our Method: Group Decentralized RHCR",
+      "6 Theory: Near Optimality of GD-RHCR",
+      "7 Simulations",
+      "8 Conclusion and Future Work",
+      "9 Acknowledgements",
+      "References",
+      "A MAPF as LI-MDP"
+    ],
+    "segmentation": "headings"
+  }
+}

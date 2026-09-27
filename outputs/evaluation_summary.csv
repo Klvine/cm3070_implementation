@@ -1,0 +1,108 @@
+﻿section,task,model,split,metric,value,note
+8.1,methodology,annotator 1 vs annotator 2,test,cohen kappa,0.9805,
+8.1,methodology,rule annotator vs annotator 1,test,cohen kappa,0.7214,
+10,discipline,Majority class,dev 5-fold CV,accuracy,0.5412,full text view
+10,discipline,Majority class,dev 5-fold CV,macro F1,0.117,full text view
+10,discipline,Majority class,dev 5-fold CV,weighted F1,0.3801,full text view
+10,discipline,Complement Naive Bayes,dev 5-fold CV,accuracy,0.7922,full text view
+10,discipline,Complement Naive Bayes,dev 5-fold CV,macro F1,0.4052,full text view
+10,discipline,Complement Naive Bayes,dev 5-fold CV,weighted F1,0.7527,full text view
+10,discipline,Logistic Regression,dev 5-fold CV,accuracy,0.8039,full text view
+10,discipline,Logistic Regression,dev 5-fold CV,macro F1,0.4129,full text view
+10,discipline,Logistic Regression,dev 5-fold CV,weighted F1,0.7618,full text view
+10,discipline,Linear SVM,dev 5-fold CV,accuracy,0.8078,full text view
+10,discipline,Linear SVM,dev 5-fold CV,macro F1,0.4147,full text view
+10,discipline,Linear SVM,dev 5-fold CV,weighted F1,0.7655,full text view
+10,field,Majority class,dev 5-fold CV,accuracy,0.4235,full text view
+10,field,Majority class,dev 5-fold CV,macro F1,0.0458,full text view
+10,field,Majority class,dev 5-fold CV,weighted F1,0.252,full text view
+10,field,Complement Naive Bayes,dev 5-fold CV,accuracy,0.6941,full text view
+10,field,Complement Naive Bayes,dev 5-fold CV,macro F1,0.2159,full text view
+10,field,Complement Naive Bayes,dev 5-fold CV,weighted F1,0.616,full text view
+10,field,Logistic Regression,dev 5-fold CV,accuracy,0.7098,full text view
+10,field,Logistic Regression,dev 5-fold CV,macro F1,0.2576,full text view
+10,field,Logistic Regression,dev 5-fold CV,weighted F1,0.6459,full text view
+10,field,Linear SVM,dev 5-fold CV,accuracy,0.7176,full text view
+10,field,Linear SVM,dev 5-fold CV,macro F1,0.2768,full text view
+10,field,Linear SVM,dev 5-fold CV,weighted F1,0.6626,full text view
+11,RQ2,Decoupled,dev 5-fold CV,discipline accuracy,0.8078,
+11,RQ2,Decoupled,dev 5-fold CV,discipline macro F1,0.4147,
+11,RQ2,Decoupled,dev 5-fold CV,field accuracy,0.7176,
+11,RQ2,Decoupled,dev 5-fold CV,field macro F1,0.2768,
+11,RQ2,Decoupled,dev 5-fold CV,hierarchical consistency,0.9373,
+11,RQ2,Decoupled,dev 5-fold CV,methodology micro F1 (vs rule labels),0.7639,
+11,RQ2,Top-down hierarchical,dev 5-fold CV,discipline accuracy,0.8078,
+11,RQ2,Top-down hierarchical,dev 5-fold CV,discipline macro F1,0.4147,
+11,RQ2,Top-down hierarchical,dev 5-fold CV,field accuracy,0.7176,
+11,RQ2,Top-down hierarchical,dev 5-fold CV,field macro F1,0.2546,
+11,RQ2,Top-down hierarchical,dev 5-fold CV,hierarchical consistency,1.0,
+11,RQ2,Top-down hierarchical,dev 5-fold CV,methodology micro F1 (vs rule labels),0.7639,
+11,RQ2,Bottom-up (flat over fields),dev 5-fold CV,discipline accuracy,0.7961,
+11,RQ2,Bottom-up (flat over fields),dev 5-fold CV,discipline macro F1,0.4467,
+11,RQ2,Bottom-up (flat over fields),dev 5-fold CV,field accuracy,0.7176,
+11,RQ2,Bottom-up (flat over fields),dev 5-fold CV,field macro F1,0.2768,
+11,RQ2,Bottom-up (flat over fields),dev 5-fold CV,hierarchical consistency,1.0,
+11,RQ2,Bottom-up (flat over fields),dev 5-fold CV,methodology micro F1 (vs rule labels),0.7639,
+11,RQ2,Flat label powerset,dev 5-fold CV,discipline accuracy,0.8157,
+11,RQ2,Flat label powerset,dev 5-fold CV,discipline macro F1,0.4729,
+11,RQ2,Flat label powerset,dev 5-fold CV,field accuracy,0.7098,
+11,RQ2,Flat label powerset,dev 5-fold CV,field macro F1,0.2747,
+11,RQ2,Flat label powerset,dev 5-fold CV,hierarchical consistency,1.0,
+11,RQ2,Flat label powerset,dev 5-fold CV,methodology micro F1 (vs rule labels),0.6944,
+12,zone ablation,Linear SVM,dev 5-fold CV,discipline macro F1,0.376,abstract
+12,zone ablation,Linear SVM,dev 5-fold CV,field macro F1,0.2091,abstract
+12,zone ablation,Linear SVM,dev 5-fold CV,methodology micro F1 (vs rule labels),0.7382,abstract
+12,zone ablation,Linear SVM,dev 5-fold CV,discipline macro F1,0.4323,abstract + introduction
+12,zone ablation,Linear SVM,dev 5-fold CV,field macro F1,0.2475,abstract + introduction
+12,zone ablation,Linear SVM,dev 5-fold CV,methodology micro F1 (vs rule labels),0.7468,abstract + introduction
+12,zone ablation,Linear SVM,dev 5-fold CV,discipline macro F1,0.4254,"core (method, evaluation)"
+12,zone ablation,Linear SVM,dev 5-fold CV,field macro F1,0.2643,"core (method, evaluation)"
+12,zone ablation,Linear SVM,dev 5-fold CV,methodology micro F1 (vs rule labels),0.7617,"core (method, evaluation)"
+12,zone ablation,Linear SVM,dev 5-fold CV,discipline macro F1,0.4147,full text
+12,zone ablation,Linear SVM,dev 5-fold CV,field macro F1,0.2768,full text
+12,zone ablation,Linear SVM,dev 5-fold CV,methodology micro F1 (vs rule labels),0.7625,full text
+12,zone ablation,Linear SVM,dev 5-fold CV,discipline macro F1,0.3979,abstract + core
+12,zone ablation,Linear SVM,dev 5-fold CV,field macro F1,0.2645,abstract + core
+12,zone ablation,Linear SVM,dev 5-fold CV,methodology micro F1 (vs rule labels),0.7639,abstract + core
+13,methodology,Linear SVM,dev 5-fold CV vs rule labels,micro F1,0.7815,abstract + core
+13,methodology,Linear SVM,dev 5-fold CV vs rule labels,macro F1,0.5966,abstract + core
+13,methodology,Linear SVM,dev 5-fold CV vs rule labels,exact match,0.4549,abstract + core
+13,methodology,Logistic Regression,dev 5-fold CV vs rule labels,micro F1,0.7826,abstract + core
+13,methodology,Logistic Regression,dev 5-fold CV vs rule labels,macro F1,0.5941,abstract + core
+13,methodology,Logistic Regression,dev 5-fold CV vs rule labels,exact match,0.4627,abstract + core
+13,methodology,Naive keyword matching,test vs human labels,micro F1,0.7778,
+13,methodology,Naive keyword matching,test vs human labels,macro F1,0.473,
+13,methodology,Naive keyword matching,test vs human labels,exact match,0.3111,
+13,methodology,Context-aware rules,test vs human labels,micro F1,0.775,
+13,methodology,Context-aware rules,test vs human labels,macro F1,0.4239,
+13,methodology,Context-aware rules,test vs human labels,exact match,0.4667,
+13,methodology,SVM (trained on rule labels),test vs human labels,micro F1,0.7831,
+13,methodology,SVM (trained on rule labels),test vs human labels,macro F1,0.3484,
+13,methodology,SVM (trained on rule labels),test vs human labels,exact match,0.3556,
+13,methodology,Hybrid (final pipeline),test vs human labels,micro F1,0.7805,
+13,methodology,Hybrid (final pipeline),test vs human labels,macro F1,0.4252,
+13,methodology,Hybrid (final pipeline),test vs human labels,exact match,0.4444,
+16,discipline,classical,test,accuracy,0.8,
+16,discipline,classical,test,macro F1,0.5717,
+16,discipline,classical,test,weighted F1,0.7915,
+16,discipline,SciBERT,test,accuracy,0.8889,
+16,discipline,SciBERT,test,macro F1,0.6955,
+16,discipline,SciBERT,test,weighted F1,0.8787,
+16,field,classical,test,accuracy,0.7333,
+16,field,classical,test,macro F1,0.5691,
+16,field,classical,test,weighted F1,0.7034,
+16,field,SciBERT,test,accuracy,0.8,
+16,field,SciBERT,test,macro F1,0.5939,
+16,field,SciBERT,test,weighted F1,0.7883,
+16.1,discipline,classical vs SciBERT,test,McNemar p-value,0.2188,
+16.1,field,classical vs SciBERT,test,McNemar p-value,0.5078,
+16.2,methodology,SVM + rules (hybrid),test vs human labels,micro F1,0.7853,
+16.2,methodology,SVM + rules (hybrid),test vs human labels,macro F1,0.4266,
+16.2,methodology,SVM + rules (hybrid),test vs human labels,exact match,0.4667,
+16.2,methodology,SciBERT,test vs human labels,micro F1,0.7907,
+16.2,methodology,SciBERT,test vs human labels,macro F1,0.4172,
+16.2,methodology,SciBERT,test vs human labels,exact match,0.4,
+16.2,methodology,Linear SVM,test vs human labels,ROC AUC Design and Creation,0.6514,
+16.2,methodology,Linear SVM,test vs human labels,ROC AUC Experiment,0.973,
+16.2,methodology,Linear SVM,test vs human labels,ROC AUC Formal Proof,1.0,
+16.2,methodology,Linear SVM,test vs human labels,ROC AUC Simulation,0.6892,

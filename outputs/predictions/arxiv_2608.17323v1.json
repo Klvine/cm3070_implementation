@@ -1,0 +1,92 @@
+{
+  "file": "arxiv_2608.17323v1.pdf",
+  "title": "ORPA: Online Residual Policy Adaptation for Robot Manipulation Control with Human Feedback",
+  "arxiv_category_on_pdf": "cs.RO",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.881
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.055
+      },
+      {
+        "label": "Other",
+        "confidence": 0.022
+      }
+    ]
+  },
+  "field": {
+    "label": "Robotics",
+    "alternatives": [
+      {
+        "label": "Robotics",
+        "confidence": 0.135
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.091
+      },
+      {
+        "label": "Computer Vision, Graphics and Multimedia",
+        "confidence": 0.089
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.7,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "In this work, we propose Online Residual Policy Adaptation (ORPA), a framework that enables immediate, feedback-driven correction of robot actions without modifying the underlying policy parameters."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "Finally, the results obtained using combined translational and rotational feedback highlight the flexibility of the proposed approach."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.691,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We evaluate ORPA on a set of precision-sensitive manipulation tasks using the ALOHA platform, demonstrating improvements in success rate and recovery from small perturbations compared to baseline control policies and rule-based inverse kinematics corrections."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "Experiment Results Our experiments demonstrate that the proposed ORPA framework improves manipulation robustness under small execution perturbations and distribution shifts compared to baseline ACT policies and rule-based inverse kinematics (IK) correction methods."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 8,
+    "two_column_pages": 8,
+    "sections": [
+      "Abstract (inline)",
+      "I. INTRODUCTION",
+      "II. RELATED WORK",
+      "III. EXPERIMENT SETUP",
+      "IV. ONLINE RESIDUAL POLICY ADAPTATION",
+      "V. EXPERIMENTS AND ANALYSIS",
+      "VI. REAL-WORLD VALIDATION",
+      "VII. CONCLUSION",
+      "ACKNOWLEDGMENT",
+      "REFERENCES"
+    ],
+    "segmentation": "headings"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "file": "arxiv_2608.17561v1.pdf",
+  "title": "Leveraging existing sparse point annotations for benthic imagery dense segmentation",
+  "arxiv_category_on_pdf": "cs.CV",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.96
+      },
+      {
+        "label": "Other",
+        "confidence": 0.036
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.001
+      }
+    ]
+  },
+  "field": {
+    "label": "Computer Vision, Graphics and Multimedia",
+    "alternatives": [
+      {
+        "label": "Computer Vision, Graphics and Multimedia",
+        "confidence": 0.149
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.089
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.084
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.846,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "The class inventory in this dataset is very challenging for existing generic models and appearance-based methods, as it contains near-identical colonial tunicate species, morphologically similar encrusting forms, and a heterogeneous mixed-turf category. 4.1 Overview We propose a method that given an image with a set of sparse labeled points, generates a dense semantic segmentation of the image."
+        },
+        {
+          "section": "abstract",
+          "sentence": "We demonstrate the effectiveness of our approach on public benthic data and introduce a new, challenging benchmark featuring real-world sparse expert annotations, paving the way for scalable ecological analysis."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.667,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Our work addresses this gap by bridging state-of-the-art foundation models with existing sparse supervision."
+        },
+        {
+          "section": "body",
+          "sentence": "If A point is empty, i.e. no propagated mask in the training set covers a validation point-label of a Leveraging sparse point annotations for benthic imagery dense segmentation 9 different class, no verified evidence of harmful propagation exists and we prune nothing, recovering the keep-all baseline."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Datasets We evaluate on the three datasets described in more detail in Sec. 3: our benthic dataset (24 classes), Coralscapes [21] (39 classes), and UCSD Mosaics [1,10] (34 classes)."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 17,
+    "two_column_pages": 0,
+    "sections": [
+      "Abstract (inline)",
+      "1 Introduction",
+      "2 Related Work",
+      "3 Benthic datasets: a new long-term monitoring",
+      "4 Segmentation-aware sparse point label propagation",
+      "5 Experiments",
+      "6 Conclusion",
+      "Acknowledgments",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

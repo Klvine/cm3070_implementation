@@ -1,0 +1,95 @@
+{
+  "file": "arxiv_2608.17370v1.pdf",
+  "title": "Pathology Transport: Optimal-Transport Explanations for Clinical Data, and When Their Heatmaps (Fail to) Localize Disease",
+  "arxiv_category_on_pdf": "cs.LG",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.999
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.0
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.152
+      },
+      {
+        "label": "Computer Vision, Graphics and Multimedia",
+        "confidence": 0.108
+      },
+      {
+        "label": "Other",
+        "confidence": 0.081
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.714,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "method",
+          "sentence": "Two flows, 𝐹 𝑏 → 𝑚 and 𝐹 𝑚 → 𝑏 , yield a risk score, per-patient counterfactuals, and population attribution, each evaluated against supervised or naive baselines."
+        },
+        {
+          "section": "method",
+          "sentence": "Baselines and metrics."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.5,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We build such a system—an optimal-transport rectified flow trained between two clinical distributions—and use it to ask a pointed question the field too rarely tests: do the resulting explanation ?"
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "We contribute a reusable optimal-transport recipe for generative explanations and a controlled benchmark for stress-testing whether they localize."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 7,
+    "two_column_pages": 7,
+    "sections": [
+      "Abstract",
+      "Keywords",
+      "1 Introduction",
+      "2 Related Work",
+      "3 Background",
+      "4 Methodology",
+      "5 Results",
+      "6 Extension to Chest X-ray Images",
+      "7 Do Generative Heatmaps Localize Disease?",
+      "8 Limitations",
+      "9 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "file": "arxiv_2608.17756v1.pdf",
+  "title": "D ACCI: A Dual-Loop Diagnostic Protocol for Evidence-Preserving Agent Memory",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.984
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.007
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.004
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.118
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.109
+      },
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.083
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.814,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Five paired ablations show that supplement extraction, session-memory retrieval, and Forget Guard yield statistically significant gains (+1.9 to +3.7pp, all p ≤ . 003 )."
+        },
+        {
+          "section": "body",
+          "sentence": "A candidate ′ is compared against a baseline on paired θ θ samples, partitioning them into I (improved), R (regressed), B (both wrong), and B (both correct)."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "We instantiate the protocol in MemStack and evaluate on three public benchmarks, achieving 93.59% on LoCoMo, 90.93% on Long- MemEval, and 57.20% on PersonaMem-V2."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 9,
+    "two_column_pages": 8,
+    "sections": [
+      "Abstract",
+      "Introduction",
+      "DACCI Framework",
+      "Experiments",
+      "Related Work",
+      "Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

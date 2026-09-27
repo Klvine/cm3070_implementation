@@ -1,0 +1,110 @@
+{
+  "file": "arxiv_2608.17352v1.pdf",
+  "title": "Cognitive Graph Intelligence for Adaptive and Robust DDoS Attack Detection in Next Generation Networks",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.7
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.272
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.024
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.179
+      },
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.094
+      },
+      {
+        "label": "Computer Vision, Graphics and Multimedia",
+        "confidence": 0.086
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Formal Proof",
+      "confidence": 0.927,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "method",
+          "sentence": "Lemma 1 (Symmetry and Bounded Degree of 𝑘 -NN Graph) ."
+        },
+        {
+          "section": "method",
+          "sentence": "Theorem 1 (Graph Advantage under Feature-Ambiguous Coordination) ."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.833,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "evaluation",
+          "sentence": "Impact of Different Training Ratio To evaluate the robustness and data efficiency of our proposed GraphGAN framework, we conducted experiments with training data ratios ranging from 10% to 90%, while maintaining a consistent test set composition and preserving the original class distribution."
+        },
+        {
+          "section": "abstract",
+          "sentence": "Evaluations on four benchmark datasets show that GraphGAN achieves superior accuracy, precision, and recall compared to state-of-the-art approaches, particularly in data-scarce scenarios."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.75,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "This paper proposes a Graph-based Generative Adversarial Network (GraphGAN) that serves as the cognitive detection engine for this task."
+        },
+        {
+          "section": "method",
+          "sentence": "Graph-based Classification Network The classification network serves as the final component of our framework, leveraging both original and synthetically augmented data to perform DDoS detection. 1) Classifier Architecture and Feature Learning: The 𝐶 DDoS classifier 𝜓 employs the same GCN-based architecture as the discriminator to ensure consistent graph-structured processing, but it is trained ind"
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "A separate GCN classifier, trained on the balanced dataset, performs the final detection decision."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 13,
+    "two_column_pages": 12,
+    "sections": [
+      "Abstract (inline)",
+      "I. INTRODUCTION",
+      "II. METHODOLOGY",
+      "III. EXPERIMENTAL RESULTS",
+      "IV. CONCLUDING REMARKS",
+      "DATA AVAILABILITY",
+      "REFERENCES"
+    ],
+    "segmentation": "headings"
+  }
+}

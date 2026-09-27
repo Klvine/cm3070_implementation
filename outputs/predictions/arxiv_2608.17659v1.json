@@ -1,0 +1,95 @@
+{
+  "file": "arxiv_2608.17659v1.pdf",
+  "title": "MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps",
+  "arxiv_category_on_pdf": "cs.CR",
+  "discipline": {
+    "label": "Information Technology",
+    "alternatives": [
+      {
+        "label": "Information Technology",
+        "confidence": 0.996
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.002
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.001
+      }
+    ]
+  },
+  "field": {
+    "label": "Cybersecurity",
+    "alternatives": [
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.124
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.105
+      },
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.088
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.667,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "To address this gap, we introduce Mobile- WorldSafety , a benchmark of 142 risk tasks built on real Android applications."
+        },
+        {
+          "section": "introduction",
+          "sentence": "Our contributions are as follows: • We introduce MobileWorldSafety , a systematic benchmark built on real Android applications that reflect everyday mobile usage, designed to evaluate the safety of mobile GUI agents against environmental injection attacks. • We construct a unified suite of 142 risk tasks across 13 real Android applications, organized along two dimensions of attack vectors and harm"
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.667,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "evaluation",
+          "sentence": "To further investigate factors that may affect vulnerability, we conduct additional experiments in Section 4.4: we append an explicit safety prompt to the system prompt to assess the effectiveness of prompt-level defense, and evaluate Gemini-3-Flash [Google DeepMind, 2025a] in both thinking and non-thinking configurations to examine the effects of model scale and reasoning mode."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "To measure the baseline safety behavior of the models, we intentionally omit any additional safety instructions from the system prompt during the standard evaluation phase."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Despite these risks, existing benchmarks often fail to capture everyday user scenarios, lacking a systematic evaluation of GUI agents under environmental injection attacks on mobile devices."
+    }
+  ],
+  "data_analysis_approach": "Not determined",
+  "document_structure": {
+    "pages": 29,
+    "two_column_pages": 2,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Related Work",
+      "3 MobileWorldSafety Benchmark",
+      "4 Experiments",
+      "5 Conclusion",
+      "References",
+      "A Limitations"
+    ],
+    "segmentation": "headings"
+  }
+}

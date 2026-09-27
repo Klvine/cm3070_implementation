@@ -1,0 +1,80 @@
+{
+  "file": "arxiv_2608.17029v1.pdf",
+  "title": "LadderTeam: Dual-Agent Laddering Elicitation Framework",
+  "arxiv_category_on_pdf": "cs.SE",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 0.869
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.129
+      },
+      {
+        "label": "Other",
+        "confidence": 0.001
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.111
+      },
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.094
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.093
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.625,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "To address these limitations, we present LadderTeam , an open, reproducible framework that automates UX wireframe interviews using a dual-agent Large Language Model (LLM) architecture."
+        },
+        {
+          "section": "introduction",
+          "sentence": "We present LadderTeam, an LLM-based scaffolding system for structured laddering interviews with users in software usability feedback contexts."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Interviews",
+      "evidence": "To ensure the feedback collected is detailed and actionable, software teams can leverage the laddering interview technique."
+    }
+  ],
+  "data_analysis_approach": "Not determined",
+  "document_structure": {
+    "pages": 5,
+    "two_column_pages": 5,
+    "sections": [
+      "Abstract",
+      "CCS Concepts",
+      "Keywords",
+      "1 Introduction",
+      "2 Methods & Framework",
+      "3 Results",
+      "4 Discussion",
+      "5 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

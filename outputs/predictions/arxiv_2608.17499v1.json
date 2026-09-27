@@ -1,0 +1,98 @@
+{
+  "file": "arxiv_2608.17499v1.pdf",
+  "title": "Towards Better Agents for Multi-Turn User Interaction: The Next User Turn Is More Than Context",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.992
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.007
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.156
+      },
+      {
+        "label": "Robotics",
+        "confidence": 0.082
+      },
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.081
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Simulation",
+      "confidence": 0.842,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Against an outcome-only Interactive GRPO control matched in simulator, visible dialogue, initialization, rollout, and optimization, Faca improves the nine-domain 𝜏 -family average across three independently trained runs by 5.91 and 10.22 percentage points at 8B and 14B, respectively."
+        },
+        {
+          "section": "body",
+          "sentence": "It shares the user policy, simulator prompt, agent-visible dialogue, rollout, and optimization with Faca."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 12
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.682,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "evaluation",
+          "sentence": "Its simulated condition contains 102 Travel Planning, 100 Related Work Writing, and 110 Tabular Analysis tasks, where the agent and user can act asynchronously in the same environment. 4.2 Experimental Settings We experiment with Qwen3-8B and Qwen3-14B, initialized by SFT on the public MUA-RL release [Zhao et al., 2025a]."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "Their shared ordering is cross-protocol evidence, but low absolute Pare-Bench rates and Co-Gym Travel regressions keep the claim comparative rather than broadly conclusive. 5.3 Ablation Studies Table 4 reports a single-run controlled ablation from the 8B s1 experiment family; every row uses the same oneshot evaluation protocol."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "4.1 Datasets 𝜏 -bench family."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 19,
+    "two_column_pages": 18,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Related Work",
+      "3 Feedback-Aware Credit Assignment",
+      "4 Experiments",
+      "5 Results",
+      "6 Analysis",
+      "7 Conclusion",
+      "Limitations",
+      "References",
+      "A Zero-Shot Transfer Protocols"
+    ],
+    "segmentation": "headings"
+  }
+}

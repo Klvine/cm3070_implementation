@@ -1,0 +1,96 @@
+{
+  "file": "arxiv_2608.17450v1.pdf",
+  "title": "Nonlocal Transition Kernel for Efficient Learning of Restricted Boltzmann Machines",
+  "arxiv_category_on_pdf": "stat.ML",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 1.0
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.0
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.197
+      },
+      {
+        "label": "Other",
+        "confidence": 0.081
+      },
+      {
+        "label": "Theory and Algorithms",
+        "confidence": 0.076
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.647,
+      "decided_by": "model only (no applied evidence found)",
+      "evidence": [
+        {
+          "section": "introduction",
+          "sentence": "We show 2 (a) (b) Figure 1: Schematic illustrations of an RBM: (a) a two-layer architecture with a visible layer at the bottom and a hidden layer at the top, and (b) its simplified representation. that the proposed method achieves high learning performance."
+        },
+        {
+          "section": "introduction",
+          "sentence": "In particular, the proposed method mitigates learning failures in settings where learning based on BGS and DT typically fails."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Simulation",
+      "confidence": 0.538,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "The expectations are typically evaluated using a sampling approximation based on blocked Gibbs sampling (BGS), which is a local Markov chain Monte Carlo transition kernel."
+        },
+        {
+          "section": "introduction",
+          "sentence": "Since blocked Gibbs sampling (BGS), a type of Markov chain Monte Carlo (MCMC), can be easily performed for an RBM, the expectations are typically evaluated using a sampling approximation based on BGS."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 11
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "(5). 2.2 Training Restricted Boltzmann Machines Suppose that we obtain a dataset consisting of N data points corresponding to v expressed as d ( µ ) n D := { d ∈ { 0 , 1 } | µ = 1 , 2 , . . ."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 23,
+    "two_column_pages": 15,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Restricted Boltzmann Machines and Their Learning",
+      "3 Deep Tempering",
+      "4 Proposed Non-local Transition Kernel",
+      "5 Numerical Experiments",
+      "6 Conclusion",
+      "References",
+      "A Semi-Second-Order SMCI for RBMs"
+    ],
+    "segmentation": "headings"
+  }
+}

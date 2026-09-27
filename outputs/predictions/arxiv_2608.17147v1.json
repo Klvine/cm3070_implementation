@@ -1,0 +1,98 @@
+{
+  "file": "arxiv_2608.17147v1.pdf",
+  "title": "Picture the Epsilon: Pursuing Identity-Level Privacy Guarantees for Images",
+  "arxiv_category_on_pdf": "cs.CR",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.999
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.001
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.173
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.082
+      },
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.081
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Formal Proof",
+      "confidence": 0.667,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "Lemma 1 ( MMD ≤ 2 d TV for bounded-diagonal kernels) ."
+        },
+        {
+          "section": "body",
+          "sentence": "(12) 1 − MMD( P , P ) / 2 A B Its population justification follows from Lemma 1 and Theorem 1; empirical results later evaluate the expression using a sample MMD estimate without a one-sided confidence correction."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 4
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.652,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We present a comparative study of four such audits applicable to pre-trained, blackbox face generators: a Gaussian-mechanism reading of peridentity sensitivity (G AUSS M ECH ); a per-dimension kerneldensity log-ratio aggregated by basic composition (KDE- LR); an analytical population-level lower bound on pure- DP ε derived from the maximum mean discrepancy via the total variation distance (MMD-TV)"
+        },
+        {
+          "section": "abstract",
+          "sentence": "Index Terms —Differential privacy, privacy auditing, face recognition, maximum mean discrepancy, kernel density estimation, hypothesis testing, image-to-image generation."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 7
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Applied to Face- Fusion and InstantID across multiple identity encoders and reference datasets, the audits consistently reveal substantial identity distinguishability while reporting markedly different ε estimates that reflect each method’s distinct assumptions and finite-sample treatment."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 14,
+    "two_column_pages": 13,
+    "sections": [
+      "Abstract (inline)",
+      "1. Introduction",
+      "2. Background and Threat Model",
+      "3. Four Audit Methods",
+      "4. Comparative Experimental Evaluation",
+      "5. Discussion",
+      "6. Related Work",
+      "7. Ethics and Dual Use",
+      "8. Limitations and Future Work",
+      "9. Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "file": "arxiv_2608.15412v1.pdf",
+  "title": "Invariant Pretraining for Robust Code Representations",
+  "arxiv_category_on_pdf": "cs.LG",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 0.994
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.005
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.001
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.116
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.099
+      },
+      {
+        "label": "Computer Vision, Graphics and Multimedia",
+        "confidence": 0.093
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.867,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We present an empirical study of this robustness gap across four encoder baselines, two downstream tasks, and four datasets, together with a minimal code-only continued pretraining recipe that recovers a consistent part of it."
+        },
+        {
+          "section": "abstract",
+          "sentence": "Across our evaluation, InvPT improves robustness on transformed test sets in every model–dataset comparison, by a median of 8 . 1 percentage points on clone detection (up to 11 . 0) and 3 . 6 on code classification (up to 19 . 2), while matching or improving standard accuracy; ablations isolate multi-positive invariant contrast as the main source of the gains."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.647,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Our method, invariant pretraining (InvPT), applies semantics-preserving transformations to the corpus and combines masked language modeling with multi-positive supervised contrastive learning that treats all augmentations of the same source function as positives, mixing self-contrast pairs (same code, different masks) with invariant-contrast pairs (transformed code) for positives of varying diffic"
+        },
+        {
+          "section": "body",
+          "sentence": "Our operators target the language constructs that appear in our benchmarks (POJ104 and CodeNet); for Python we therefore omit the loop and increment operators."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "We present an empirical study of this robustness gap across four encoder baselines, two downstream tasks, and four datasets, together with a minimal code-only continued pretraining recipe that recovers a consistent part of it."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 12,
+    "two_column_pages": 12,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Invariant Pretraining",
+      "3 Experiments",
+      "4 Related Work",
+      "5 Limitations",
+      "6 Conclusion",
+      "Acknowledgments",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

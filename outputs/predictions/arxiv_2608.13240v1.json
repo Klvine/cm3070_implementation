@@ -1,0 +1,83 @@
+{
+  "file": "arxiv_2608.13240v1.pdf",
+  "title": "Can Formal Specifications Be Synthesized from Tests Alone?",
+  "arxiv_category_on_pdf": "cs.SE",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 0.999
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.0
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.193
+      },
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.082
+      },
+      {
+        "label": "Hardware and Systems",
+        "confidence": 0.078
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.75,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Our approach uses LLMs to infer candidate specifications solely from test code and dynamic execution traces: the LLM observes only the program interface, selected inputs, and corresponding outputs or state changes, while the implementation internals remain hidden."
+        },
+        {
+          "section": "introduction",
+          "sentence": "This work presents an initial investigation into the feasibility of LLM-based formal specification synthesis from tests alone."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Initial results on the SpecGenBench benchmark suggest that tests can guide LLMs towards meaningful Java Modeling Language specifications, while also highlighting checker compatibility and diagnostic feedback as key challenges for reliable refinement."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 5,
+    "two_column_pages": 5,
+    "sections": [
+      "Abstract",
+      "CCS Concepts",
+      "Keywords",
+      "1 Introduction",
+      "2 Motivating Example",
+      "3 Proposed Approach",
+      "4 Preliminary Results",
+      "5 Related Work",
+      "6 Conclusion and Future Work",
+      "Acknowledgements",
+      "Data Availability Statement",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

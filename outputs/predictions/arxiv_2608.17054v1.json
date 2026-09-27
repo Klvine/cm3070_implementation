@@ -1,0 +1,94 @@
+{
+  "file": "arxiv_2608.17054v1.pdf",
+  "title": "Why This and Not That? A Collaborative Reflection Approach for Understanding Thought Coverage in Decision Making Support Dialog",
+  "arxiv_category_on_pdf": "cs.HC",
+  "discipline": {
+    "label": "Information Systems",
+    "alternatives": [
+      {
+        "label": "Information Systems",
+        "confidence": 0.999
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.001
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Human-Computer Interaction",
+    "alternatives": [
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.206
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.085
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.078
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.714,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "In a user study with 62 users and 232 collaborative moments, we pause a reflection-support agent when it would normally redirect the conversation, surface its observation, and ask users to interpret the pattern and decide how to proceed."
+        },
+        {
+          "section": "method",
+          "sentence": "We describe our method in three subsections describing the reflection-support agent that provides the state-based policy, the determination of collaborative reflection moments that expose and query the policy’s category-switching decisions, and the user study through which we collect users’ interpretations and follow-up choices. 3.1 Baseline Reflection Support Agent We build on ReflectiMate (Tarvi"
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.684,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "To address this gap, we introduce a human-centered method for surfacing this hidden inference step."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "We developed the interpretation taxonomy using an inductive qualitative coding approach (Thomas, 2006), deriving categories iteratively from participant responses."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Mixed methods",
+  "document_structure": {
+    "pages": 15,
+    "two_column_pages": 12,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Related Work",
+      "3 Methodology",
+      "4 Experiment",
+      "5 Results",
+      "6 Discussion",
+      "7 Future Work",
+      "8 Conclusion",
+      "Limitations",
+      "References",
+      "A Taxonomy Codebook F Decision Topic Distribution"
+    ],
+    "segmentation": "headings"
+  }
+}

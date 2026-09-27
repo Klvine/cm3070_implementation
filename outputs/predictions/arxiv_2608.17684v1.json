@@ -1,0 +1,60 @@
+{
+  "file": "arxiv_2608.17684v1.pdf",
+  "title": "Auditing Self-Evolution in Financial Agents: Capability Gains, Security Drift, and Execution-Interface Mismatch",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Information Technology",
+    "alternatives": [
+      {
+        "label": "Information Technology",
+        "confidence": 0.623
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.341
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.026
+      }
+    ]
+  },
+  "field": {
+    "label": "Cybersecurity",
+    "alternatives": [
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.122
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.111
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.091
+      }
+    ]
+  },
+  "research_strategies": [],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 8,
+    "two_column_pages": 8,
+    "sections": [
+      "Abstract",
+      "CCS Concepts",
+      "Keywords",
+      "1 Introduction",
+      "2 Related Work",
+      "3 Audit Protocol",
+      "4 Results",
+      "5 Discussion",
+      "6 Limitations",
+      "7 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "file": "arxiv_2608.17800v1.pdf",
+  "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.974
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.017
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.003
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.126
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.092
+      },
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.084
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.625,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We introduce StartupBench , an E2E agent benchmark grounded in market-validated AI startup products."
+        },
+        {
+          "section": "introduction",
+          "sentence": "To summarize, our contributions are as follows: 2 • We propose a survey- and interview-driven methodology for constructing agent benchmarks from real AI adoption scenarios. • We construct StartupBench, a benchmark built through AI-native startup research, enterprise-user interviews, user-oriented task abstraction, expert data construction, and multi-stage quality control. • We present a comprehens"
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.51,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "This objective requires data that reflects authentic user demand while supporting controlled evaluation."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "As an ablation, instead of assigning one rubric to one judge agent, we directly provide the complete model output together with the full rubric list to a single judge agent, requiring it to score all rubrics in one end-to-end inference."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Interviews",
+      "evidence": "We therefore adopt a survey- and interview-driven multi-stage pipeline shown in Figure 2."
+    },
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Yet existing benchmarks largely rely on researcherselected tasks, leaving uncertain whether such progress extends to the work that real-world users actually demand from AI systems."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 24,
+    "two_column_pages": 9,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Related Work",
+      "3 StartupBench",
+      "4 Experiments",
+      "5 Conclusion",
+      "6 Contributions",
+      "References",
+      "Appendix"
+    ],
+    "segmentation": "headings"
+  }
+}

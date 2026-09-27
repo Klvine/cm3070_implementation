@@ -1,0 +1,53 @@
+{
+  "file": "arxiv_2608.16886v1.pdf",
+  "title": "Evaluating Beyond the Screen: Collective Assessment of AI-Generated Business Plans with Resource-Constrained Entrepreneurs",
+  "arxiv_category_on_pdf": "cs.HC",
+  "discipline": {
+    "label": "Information Systems",
+    "alternatives": [
+      {
+        "label": "Information Systems",
+        "confidence": 0.992
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.007
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Human-Computer Interaction",
+    "alternatives": [
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.136
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.087
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.082
+      }
+    ]
+  },
+  "research_strategies": [],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Not determined",
+  "document_structure": {
+    "pages": 3,
+    "two_column_pages": 0,
+    "sections": [
+      "1 Introduction and Related Work",
+      "2 The BizChat Evaluation Module: A Probe for Collective Evaluation",
+      "3 Approach and Early Findings: Supporting and Assessing Collective Evaluation",
+      "References"
+    ],
+    "segmentation": "headings+abstract_fallback"
+  }
+}

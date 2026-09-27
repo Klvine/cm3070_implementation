@@ -1,0 +1,102 @@
+{
+  "file": "arxiv_2608.16293v1.pdf",
+  "title": "Principled Authority Switching for Shared Autonomy in Human-Robot Teams",
+  "arxiv_category_on_pdf": "cs.HC",
+  "discipline": {
+    "label": "Information Systems",
+    "alternatives": [
+      {
+        "label": "Information Systems",
+        "confidence": 0.978
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.018
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.001
+      }
+    ]
+  },
+  "field": {
+    "label": "Human-Computer Interaction",
+    "alternatives": [
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.174
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.106
+      },
+      {
+        "label": "Robotics",
+        "confidence": 0.074
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Formal Proof",
+      "confidence": 0.829,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "For linear-quadratic systems, we derive closed-form switching conditions and value function recursions, enabling efficient computation independent of the continuous state dimension."
+        },
+        {
+          "section": "body",
+          "sentence": "Theorem 1: (Case α k = H) The optimal switching policies of the Flip-Team game (5) for every k ∈ K , subject to the dynamics (6), (7), with quadratic and takeover costs (8) and FlipDyn dynamics (3), (4), are given by: { 0 , 0 } ( retain ) , if P ˜ k + + H + A ≻ 0 , H ∗| H A ∗| H 1 k k { π k , π k } = { 1 , 1 } ( handoff ) , otherwise ."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.619,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Evaluation on a quadrotor altitude regulation task demonstrates that Flip-Team achieves lower cost than always-human and always-autonomous baselines, with selective authority switching that balances human adaptability and autonomous efficiency."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "Baselines: We compare four strategies: 1) Always-autonomous: Autonomous agent controls throughout ( α k = A , ∀ k ). 2) Always-human: Human controls throughout ( α k = H , ∀ k ). 3) Performance-threshold: Switch to human when tracking error ∥ x k ∥ exceeds a threshold ε = 1 . 0; switch back when ∥ x k ∥ < ε . 4) Flip-Team : Optimal switching policy from Theorem 1 with known p k ."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.601,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "This paper presents Flip-Team , a cooperative framework for authority switching in shared autonomy."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 7,
+    "two_column_pages": 7,
+    "sections": [
+      "Abstract (inline)",
+      "I. INTRODUCTION",
+      "II. FRAMEWORK",
+      "III. OPTIMAL SWITCHING POLICY",
+      "IV. OVERRIDE THRESHOLD AND ONLINE ESTIMATION",
+      "V. EVALUATION",
+      "VI. CONCLUSION",
+      "REFERENCES"
+    ],
+    "segmentation": "headings"
+  }
+}

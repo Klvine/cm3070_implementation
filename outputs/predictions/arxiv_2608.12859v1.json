@@ -1,0 +1,96 @@
+{
+  "file": "arxiv_2608.12859v1.pdf",
+  "title": "Dissecting Software Graphs: Structural Insights for Driver-Guided Fuzzing",
+  "arxiv_category_on_pdf": "cs.SE",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 1.0
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.0
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.152
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.098
+      },
+      {
+        "label": "Other",
+        "confidence": 0.08
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.652,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Under the same total budget, multi-driver fuzzing outperforms the best single-driver baseline, increasing covered call-graph nodes by 27.9% and CFG-edge coverage by 73.5%, and revealing 11 unique bugs and abnormal behaviors largely missed by single-driver fuzzing."
+        },
+        {
+          "section": "method",
+          "sentence": "We include this metric because exploration size is the most basic indicator of how much structure has been exercised, and it provides a natural baseline for interpreting the more detailed structural measurements below. 2 Metrics for structural cohesion and fragmentation."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.625,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "This paper presents an empirical study of software structure as observed through fuzzing."
+        },
+        {
+          "section": "method",
+          "sentence": "It also makes the connection between the study design and the reported findings explicit, improving the interpretability of the overall empirical analysis. 4.7 Tool Support To implement the study pipeline, we develop two lightweight tool components, MFuzz and GDissert, as shown in Figure 4."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "We then describe the four study phases: benchmark selection, structural backbone construction, fuzzing and execution profiling, and structural analysis and evaluation."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 40,
+    "two_column_pages": 9,
+    "sections": [
+      "1 Introduction",
+      "2 Background & Related Work",
+      "3 Study Goals and Overview",
+      "4 Methodology",
+      "5 Empirical Results",
+      "6 Discussion",
+      "7 Threats to Validity",
+      "8 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings+abstract_fallback"
+  }
+}

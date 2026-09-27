@@ -1,0 +1,73 @@
+{
+  "file": "arxiv_2608.18055v1.pdf",
+  "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
+  "arxiv_category_on_pdf": "eess.IV",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.991
+      },
+      {
+        "label": "Other",
+        "confidence": 0.004
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.003
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.127
+      },
+      {
+        "label": "Computer Vision, Graphics and Multimedia",
+        "confidence": 0.118
+      },
+      {
+        "label": "Other",
+        "confidence": 0.081
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.667,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We propose a multi-dimensional, primitive based framework for dynamic contrast-enhanced MRI reconstruction that disentangles the underlying anatomy, the dynamic contrast enhancement, and residual motion into separate temporal basis functions, thereby enabling a geometrical interpretation of the representation."
+        },
+        {
+          "section": "introduction",
+          "sentence": "Overall, our contributions are three-fold: 1. we propose the first primitive-based reconstruction method for DCE-MRI; 2. we present a novel multi-dimensional design and training strategy for a geometrically interpretable, unsupervised primitive-based representation; 3. we evaluate on in-vivo pediatric abdominal data, covering both reconstruction quality and downstream quantitative parameters as we"
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Not determined",
+  "document_structure": {
+    "pages": 10,
+    "two_column_pages": 2,
+    "sections": [
+      "Abstract (inline)",
+      "1 Introduction",
+      "2 Methods",
+      "3 Experimental Setup",
+      "4 Results",
+      "5 Discussion and Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

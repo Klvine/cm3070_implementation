@@ -1,0 +1,80 @@
+{
+  "file": "arxiv_2608.18066v1.pdf",
+  "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.947
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.035
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.014
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.107
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.101
+      },
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.089
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.86,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "(2) To investigate the influence of task order in agent self-improving, we conduct experiments with two shuffled task orders ( i.e. , Shuffle-1, Shuffle-2), in addition to the default order used in prior works."
+        },
+        {
+          "section": "abstract",
+          "sentence": "We validate this hypothesis by incorporating information that enables better specification, such as detailed rubrics and environment feedback, into the memory construction process."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "AWM (Claude-3.5-Sonnet) RBank (Gemini-2.5-Pro) 812 Tasks 684 Tasks Baseline 32.7 Baseline 46.7 +AWM 36.3 +RBank 53.9 Our Baseline 54.8 Our Baseline 55.3 3.3 Task Order Table 3: Overall results on three benchmarks."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 28,
+    "two_column_pages": 3,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Background: Memory-Based Self-Improving Agents",
+      "3 Exposing Fragility with Broadened Re-evaluation",
+      "4 Indentifying Underspecification as a Potential Cause of Fragility",
+      "5 Related Works",
+      "6 Conclusion",
+      "References",
+      "A Limitations"
+    ],
+    "segmentation": "headings"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file": "arxiv_2608.17923v1.pdf",
+  "title": "AppendiGrade: An XAI-Enhanced Deep Learning Framework for Grading Appendicitis in Ultrasound with Gaussian Blur and Grad-CAM",
+  "arxiv_category_on_pdf": "cs.CV",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.97
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.012
+      },
+      {
+        "label": "Other",
+        "confidence": 0.011
+      }
+    ]
+  },
+  "field": {
+    "label": "Computer Vision, Graphics and Multimedia",
+    "alternatives": [
+      {
+        "label": "Computer Vision, Graphics and Multimedia",
+        "confidence": 0.115
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.112
+      },
+      {
+        "label": "Hardware and Systems",
+        "confidence": 0.077
+      }
+    ]
+  },
+  "research_strategies": [],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "A dataset consisting of 4679 ultrasound images with 5 classes perforated, abscess, acute, appendicolith, and normal was used for the proposed model training and testing."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 6,
+    "two_column_pages": 5,
+    "sections": [
+      "Abstract (inline)",
+      "I. INTRODUCTION",
+      "II. LITERATURE REVIEW",
+      "III. RESEARCH METHODOLOGY",
+      "IV. EXPERIMENTAL RESULTS",
+      "V. CONCLUSION",
+      "REFERENCES"
+    ],
+    "segmentation": "headings"
+  }
+}

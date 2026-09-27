@@ -1,0 +1,100 @@
+{
+  "file": "arxiv_2608.16467v1.pdf",
+  "title": "Computational KJ-Hō: An Analyst-Bias-Free Insight Extraction Framework from Large- Scale Qualitative Data Using Domain-Specialized LLMs",
+  "arxiv_category_on_pdf": null,
+  "discipline": {
+    "label": "Information Systems",
+    "alternatives": [
+      {
+        "label": "Information Systems",
+        "confidence": 0.943
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.046
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.005
+      }
+    ]
+  },
+  "field": {
+    "label": "Human-Computer Interaction",
+    "alternatives": [
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.126
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.104
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.09
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.892,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "The KJ method means not starting from existing concepts, theories, preconceptions, wishful thinking, or hypotheses—that is, from \"the common sense of the world the analyst lives in.\" The KJ method is a \"method of idea generation (Hassōhō).\" Collecting qualitative information and data (= facts) and organizing them are merely means; the ultimate goal is for the researcher to generate new \"ideas\" thr"
+        },
+        {
+          "section": "body",
+          "sentence": "This study does not take the founders' dispute as its theme but stands closer to the Glaser lineage, because the \"analyst-bias-free\" orientation I propose minimizes the \"hypothesis-testing\" premise characteristic of marketing research and prioritizes emergence over imposition."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 6
+    },
+    {
+      "strategy": "Ethnography",
+      "confidence": 0.5,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "The method is designed for teams to organize and synthesize the diverse qualitative data accumulated through fieldwork records, interviews, and ethnography."
+        },
+        {
+          "section": "body",
+          "sentence": "Table 2: Comparative Overview of the Three Traditional Intellectual Foundations KJ Method Origin Developed by Jiro Kawakita (Japanese geographer and cultural anthropologist) as a technique for organizing largescale fieldwork; refined in a series of works beginning with Hassōhō (1967)."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Interviews",
+      "evidence": "These systems, however, share five common limitations: (1) reliance on general-purpose LLMs that lack the internalization of domain knowledge through Continued Pre- Training (CPT); (2) analysis confined to a single corpus, failing to capture cross-interview segment patterns; (3) the absence of evaluation metrics tailored to the domain; (4) a disconnect between analytical output and actionable stra"
+    },
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "These systems, however, share five common limitations: (1) reliance on general-purpose LLMs that lack the internalization of domain knowledge through Continued Pre- Training (CPT); (2) analysis confined to a single corpus, failing to capture cross-interview segment patterns; (3) the absence of evaluation metrics tailored to the domain; (4) a disconnect between analytical output and actionable stra"
+    }
+  ],
+  "data_analysis_approach": "Mixed methods",
+  "document_structure": {
+    "pages": 38,
+    "two_column_pages": 4,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Intellectual Foundations",
+      "3 Related Work: LLMs in Qualitative Research",
+      "4 The KJ-Method Computational Structure",
+      "5 The Evaluation Structure",
+      "6 Discussion",
+      "7 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

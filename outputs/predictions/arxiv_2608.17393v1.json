@@ -1,0 +1,91 @@
+{
+  "file": "arxiv_2608.17393v1.pdf",
+  "title": "L EGO -RL: Harness-Native Reinforcement Learning for Coding Agents",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 1.0
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.0
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.139
+      },
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.105
+      },
+      {
+        "label": "Other",
+        "confidence": 0.081
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.667,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "To address this, we present L EGO -RL, a framework that bridges native coding-agent harnesses with scalable policy-gradient optimization without modifying their internal control flow."
+        },
+        {
+          "section": "body",
+          "sentence": "In production, we additionally use a shared snapshotter daemon to prevent the daemon accumulation observed with the default per-image mode, trading per-image isolation for lower long-term resource overhead. 5 Conclusion We present L EGO -RL, a framework that connects native coding-agent harnesses to scalable policy-gradient optimization while preserving their original control flows."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.64,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "In stage (5), researchers use this evidence to diagnose failures, analyze learned behaviors, formulate new hypotheses, and guide subsequent experiments and system refinement, thereby closing the loop."
+        },
+        {
+          "section": "body",
+          "sentence": "Because the same initial policy yields different step- 0 scores under different scaffolds, improvements are measured relative to each scaffold’s own baseline rather than compared directly across scaffolds."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 31,
+    "two_column_pages": 15,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Related Work",
+      "3 The LEGO -RL Framework",
+      "4 LIVE UI",
+      "5 HUMAN REVIEW",
+      "Limitations and Future Work",
+      "References",
+      "A Reward-Integrity Failure Modes"
+    ],
+    "segmentation": "headings"
+  }
+}

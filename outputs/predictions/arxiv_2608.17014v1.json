@@ -1,0 +1,64 @@
+{
+  "file": "arxiv_2608.17014v1.pdf",
+  "title": "“It just kind of shows that I went somewhere”: An Exploratory Study of Fitness Data Sharing",
+  "arxiv_category_on_pdf": "cs.HC",
+  "discipline": {
+    "label": "Information Systems",
+    "alternatives": [
+      {
+        "label": "Information Systems",
+        "confidence": 0.997
+      },
+      {
+        "label": "Other",
+        "confidence": 0.001
+      },
+      {
+        "label": "Software Engineering",
+        "confidence": 0.001
+      }
+    ]
+  },
+  "field": {
+    "label": "Human-Computer Interaction",
+    "alternatives": [
+      {
+        "label": "Human-Computer Interaction",
+        "confidence": 0.229
+      },
+      {
+        "label": "Computing and Society",
+        "confidence": 0.077
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.072
+      }
+    ]
+  },
+  "research_strategies": [],
+  "data_generation_methods": [
+    {
+      "method": "Interviews",
+      "evidence": "We conduct and analyze 18 semi-structured interviews with fitness data sharers."
+    }
+  ],
+  "data_analysis_approach": "Mixed methods",
+  "document_structure": {
+    "pages": 12,
+    "two_column_pages": 12,
+    "sections": [
+      "Abstract (inline)",
+      "I. INTRODUCTION",
+      "II. RELATED WORK",
+      "III. METHODOLOGY",
+      "IV. RESULTS : FIRST -STAGE ANALYSIS",
+      "V. RESULTS : SECOND -STAGE ANALYSIS",
+      "VI. DISCUSSION",
+      "VII. CONCLUSION",
+      "ACKNOWLEDGMENTS",
+      "REFERENCES"
+    ],
+    "segmentation": "headings"
+  }
+}

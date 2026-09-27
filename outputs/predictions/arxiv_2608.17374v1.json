@@ -1,0 +1,76 @@
+{
+  "file": "arxiv_2608.17374v1.pdf",
+  "title": "On the Pseudo-Mixing of Kac’s Walk",
+  "arxiv_category_on_pdf": "math.PR",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.997
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.002
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.231
+      },
+      {
+        "label": "Theory and Algorithms",
+        "confidence": 0.07
+      },
+      {
+        "label": "Other",
+        "confidence": 0.07
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Formal Proof",
+      "confidence": 0.941,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We show two results supporting this conjecture: • First, we prove a conjecture of Oliveira that the first 𝑘 columns of Kac’s walk mix in time 𝑛𝑘 polylog(𝑛) uniformly in 𝑛 and 𝑘 ; • Secondly, we use this and a representation-theoretic argument to show that low-degree polynomials cannot distinguish Kac matrices from Haar matrices."
+        },
+        {
+          "section": "body",
+          "sentence": "The main ingredient in the proof of Theorem 2 is a proof that certain functions of Kac’s walk mix much more quickly than the walk itself."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 48,
+    "two_column_pages": 12,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Technical Overview",
+      "3 Contraction in Columns of Kac’s Walk",
+      "4 Bounds on Moments of Polynomials",
+      "5 Proof of Our Main Theorem (Theorem 2)",
+      "6 An Application to a Fast Johnson-Lindenstrauss Transform",
+      "7 Open Questions",
+      "References",
+      "A Some Geometric Calculations"
+    ],
+    "segmentation": "headings"
+  }
+}

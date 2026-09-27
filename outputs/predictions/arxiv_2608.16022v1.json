@@ -1,0 +1,82 @@
+{
+  "file": "arxiv_2608.16022v1.pdf",
+  "title": "O PEN H ARMONY B ENCH : E VALUATING LLM S AND C ODING A GENTS ON O PEN H ARMONY A PP D EVELOPMENT A BSTRACT",
+  "arxiv_category_on_pdf": "cs.SE",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 0.999
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.182
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.09
+      },
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.075
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.571,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We present OPENHARMONY BENCH , an app-level coding benchmark for evaluating LLM-based coding agents on OpenHarmony ArkTS applications."
+        },
+        {
+          "section": "introduction",
+          "sentence": "We present OPENHARMONY BENCH , an app-level coding benchmark for OpenHarmony development."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "We present OPENHARMONY BENCH , an app-level coding benchmark for evaluating LLM-based coding agents on OpenHarmony ArkTS applications."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 20,
+    "two_column_pages": 3,
+    "sections": [
+      "ABSTRACT",
+      "1 INTRODUCTION",
+      "2 BENCHMARK CONSTRUCTION",
+      "3 BENCHMARK STATISTICS",
+      "4 EVALUATION PIPELINE",
+      "5 RESULTS",
+      "6 RELATED WORK",
+      "7 LIMITATIONS",
+      "8 CONCLUSION",
+      "ACKNOWLEDGMENTS",
+      "REFERENCES"
+    ],
+    "segmentation": "headings"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "file": "arxiv_2608.17896v1.pdf",
+  "title": "D YNAMIC C OMPRESSION IN R ECURRENT N ETWORKS",
+  "arxiv_category_on_pdf": "cs.LG",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 1.0
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.0
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.157
+      },
+      {
+        "label": "Other",
+        "confidence": 0.077
+      },
+      {
+        "label": "Robotics",
+        "confidence": 0.075
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.635,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "The K = 1 baseline fixes the state needed to apply a single basis accurately."
+        },
+        {
+          "section": "body",
+          "sentence": "Table 1 compares all four model families by their best validation MSE (mean ± std over 3 seeds): single-pass baseline, repeat model, oracle dynamic (ground-truth supervision), and codebook dynamic (unsupervised)."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.538,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We introduce dynamic compression , which allows a recurrent model to selectively revisit past tokens and revise its fixed-size state through additional recurrent updates."
+        },
+        {
+          "section": "introduction",
+          "sentence": "Our method uses O ( t ) storage for the raw ∗ Correspondence: jyop@mit.edu ."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Mixed methods",
+  "document_structure": {
+    "pages": 13,
+    "two_column_pages": 6,
+    "sections": [
+      "ABSTRACT",
+      "1 INTRODUCTION",
+      "2 BACKGROUND",
+      "3 TASK DESCRIPTION",
+      "4 SELECTIVE R E -SCANNING FOR DYNAMIC STATE COMPRESSION",
+      "5 RESULTS",
+      "6 RELATED WORK",
+      "7 DISCUSSION AND LIMITATIONS",
+      "ACKNOWLEDGEMENTS",
+      "REFERENCES"
+    ],
+    "segmentation": "headings"
+  }
+}

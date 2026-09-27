@@ -1,0 +1,96 @@
+{
+  "file": "arxiv_2608.17687v1.pdf",
+  "title": "Mixture-of-Expert Blocks Contain Strong Hallucination Detection Signals",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.98
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.011
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.005
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.139
+      },
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.097
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.093
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.846,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Our results show that InnerExpert outperformsexistingmethodsacrossfive datasets and two MoE architectures, achieving up to 0.91 answer-level and 0.76 token-level AUROC, while requiring only a single forward pass."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "RQ2: How does InnerExpert compare to existing hallucination detection baselines spanning the sampling-based, internal-signal, and trainable-detector paradigms?"
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.538,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "To this end, we introduce InnerExpert , the first method to leverage these MoE-specific signals for per-token hallucination detection."
+        },
+        {
+          "section": "conclusion",
+          "sentence": "Additionally, our current evaluation is limited to the English language; future work will explore the generalizability of our approach over a more diverse set of languages."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Our results show that InnerExpert outperformsexistingmethodsacrossfive datasets and two MoE architectures, achieving up to 0.91 answer-level and 0.76 token-level AUROC, while requiring only a single forward pass."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 20,
+    "two_column_pages": 20,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Background",
+      "3 InnerExpert",
+      "4 Experiments",
+      "5 Conclusion",
+      "Acknowledgments",
+      "References",
+      "A Hallucination Detection via Epistemic"
+    ],
+    "segmentation": "headings"
+  }
+}

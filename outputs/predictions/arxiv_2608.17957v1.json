@@ -1,0 +1,81 @@
+{
+  "file": "arxiv_2608.17957v1.pdf",
+  "title": "Understanding the Surprising Generalization Properties of Tabular Foundation Models",
+  "arxiv_category_on_pdf": "cs.LG",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 1.0
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.0
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.157
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.088
+      },
+      {
+        "label": "Computer Vision, Graphics and Multimedia",
+        "confidence": 0.078
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.822,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "We evaluate the generalization performance on established benchmarks in order to easily compare with reported baseline performances directly. 2 2.1 Are good pre-training datasets universally good?"
+        },
+        {
+          "section": "body",
+          "sentence": "Linear and RandomForest baselines were computed using scikit-learn defaults, except with logistic regression maximum iterations increased to 1000."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Existing TFMs are typically trained on either massive synthetic corpora or very large collections of real datasets."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 22,
+    "two_column_pages": 12,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Generalization from single table training",
+      "3 From one to many: pre-training insights for large corpora",
+      "4 Understanding what makes generalization possible",
+      "5 Related Work",
+      "6 Conclusion and limitations",
+      "7 Acknowledgements",
+      "References",
+      "A Impact of pre-training dataset on CC-18 and CTR-23 Performance"
+    ],
+    "segmentation": "headings"
+  }
+}

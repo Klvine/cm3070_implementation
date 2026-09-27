@@ -1,0 +1,102 @@
+{
+  "file": "arxiv_2608.15579v1.pdf",
+  "title": "Kozuchi Agent: A Language-Agnostic Open-Weight Agent for Software Repair",
+  "arxiv_category_on_pdf": "cs.SE",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 0.998
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.001
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.206
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.095
+      },
+      {
+        "label": "Other",
+        "confidence": 0.072
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.818,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "evaluation",
+          "sentence": "We report this Pareto as a descriptive cost curve over this run rather than as a prescription; an early-stopping policy that exploits it would need its own controlled study."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "Each policy needs its own controlled study before deployment."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.571,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "We present Kozuchi Agent, a and language-agnostic open-weight repair agent ."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "We rank our system on a frozen snapshot of 135 publicly cataloged SWE-bench Verified as of April 28, 2026, and run paired McNemar exact tests [26] on the per-instance outcome vectors of a curated set of 17 open-weight and 7 closed-frontier peers."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 2
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Early prototypes exposed recurring operational failures: long repair contexts lost evidence and repeated work, model-specific tool syntax made backend swaps brittle, shell-only debugging localized defects poorly, and multi-hour benchmark stages made recomputation expensive."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 13,
+    "two_column_pages": 13,
+    "sections": [
+      "Abstract",
+      "CCS Concepts",
+      "Keywords",
+      "1 Introduction",
+      "2 Related Work",
+      "3 Background and Industrial Context",
+      "4 Definitions and Design Invariants",
+      "5 Motivating Empirical Observations",
+      "6 System Design",
+      "7 Cross-Agent Test-Time Selection",
+      "8 Evaluation",
+      "9 Operational Planning and Lessons Learned",
+      "10 Conclusion",
+      "Data Availability Statement",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

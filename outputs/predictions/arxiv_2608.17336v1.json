@@ -1,0 +1,81 @@
+{
+  "file": "arxiv_2608.17336v1.pdf",
+  "title": "TileMix : Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.951
+      },
+      {
+        "label": "Other",
+        "confidence": 0.021
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.019
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.14
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.097
+      },
+      {
+        "label": "Other",
+        "confidence": 0.078
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.692,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "FP16) show differences relative to the FP16 attention baseline."
+        },
+        {
+          "section": "body",
+          "sentence": "Colors indicate routing settings: green denotes the original FP16 attention baseline, red denotes One (all legal score-tile groups routed to INT8) , and blue denotes mixed configurations with partially INT8-routed tile groups. ⊤ The INT8 path computes Q 8 ,m K 8 ,n with INT8 MMA and INT32 accumulation, then applies block √ n scales and 1 / d to produce S m ."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Across LongEval, LV- Eval, and A100 prefill benchmarks on LLaMA, Qwen, and Vicuna, TileMix recovers longcontext quality lost under uniform INT8 and improves prefill throughput over FP16, yielding a controllable accuracy-efficiency frontier across model families."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 23,
+    "two_column_pages": 23,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2. Shared-State Heterogeneous Score Execu-",
+      "3. Compact and Scalable Kernel-Native Rout-",
+      "4. Practical Long-Context Inference and Evalu-",
+      "5 Experiments",
+      "6 Conclusion",
+      "Limitations",
+      "References",
+      "A Notations"
+    ],
+    "segmentation": "headings"
+  }
+}

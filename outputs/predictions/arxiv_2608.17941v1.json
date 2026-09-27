@@ -1,0 +1,118 @@
+{
+  "file": "arxiv_2608.17941v1.pdf",
+  "title": "Efficient RLVR Scheduling via Graph-Structured Online Difficulty Estimation",
+  "arxiv_category_on_pdf": "cs.LG",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 1.0
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.0
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.199
+      },
+      {
+        "label": "Robotics",
+        "confidence": 0.076
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.072
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.875,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "method",
+          "sentence": "3.1 Overview We propose a graph-based online framework for estimating the evolving difficulty of training examples in RLVR."
+        },
+        {
+          "section": "abstract",
+          "sentence": "Our framework can be integrated into sample-selection and rollout-allocation schedulers, enabling difficulty-adaptive exploration without dedicated probing."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.864,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Experiments across multiple base models, RL schedulers, and benchmarks demonstrate that our framework achieves better performance under matched rollout budgets."
+        },
+        {
+          "section": "evaluation",
+          "sentence": "For the main experiments, we keep the environment strictly consistent with the original baselines."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    },
+    {
+      "strategy": "Formal Proof",
+      "confidence": 0.842,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "method",
+          "sentence": "Proposition1 derives the assignment update, and Proposition 2 derives the Beta update."
+        },
+        {
+          "section": "method",
+          "sentence": "Proposition 3 establishes the convergence of this alternating procedure."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Experiments across multiple base models, RL schedulers, and benchmarks demonstrate that our framework achieves better performance under matched rollout budgets."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 20,
+    "two_column_pages": 19,
+    "sections": [
+      "Abstract",
+      "Introduction",
+      "Related Work",
+      "Method",
+      "Experiment",
+      "Conclusion",
+      "A. ELBO Derivation and Proofs",
+      "B. Details of Datasets and Training",
+      "C. Significance Analysis of Main Results",
+      "D. Cross-Domain Generalization to Code",
+      "E. Hyper Parameter Analysis",
+      "F. Discussion of Spectral Clusters",
+      "G. Windowed Memory under Non-stationary",
+      "H. Related work of Graph-Based Learning",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

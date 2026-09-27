@@ -1,0 +1,86 @@
+{
+  "file": "arxiv_2608.17248v1.pdf",
+  "title": "I NFORMATION FUSION AND MACHINE LEARNING FOR",
+  "arxiv_category_on_pdf": "cs.CE",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.994
+      },
+      {
+        "label": "Other",
+        "confidence": 0.004
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.002
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.153
+      },
+      {
+        "label": "Theory and Algorithms",
+        "confidence": 0.102
+      },
+      {
+        "label": "Other",
+        "confidence": 0.088
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.667,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "The proposed methods are illustrated for additive manufacturing and lake temperature modeling examples."
+        },
+        {
+          "section": "method",
+          "sentence": "Further, the computational effort of the proposed method (i.e., the calculation of the regularization term) does not increase with the problem size since the regularization term does not need the inverse of the covariance matrix."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    },
+    {
+      "strategy": "Experiment",
+      "confidence": 0.648,
+      "decided_by": "model only (no applied evidence found)",
+      "evidence": [
+        {
+          "section": "method",
+          "sentence": "(16) (1) ( n D ) Let n D be the number of collected observation data Y obs from experiments with input variable settings x , ..., x , ( i ) where x is the input variable setting for the i th experiment."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 4
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 27,
+    "two_column_pages": 19,
+    "sections": [
+      "EXPERIMENTAL DATA",
+      "ABSTRACT",
+      "1 Introduction",
+      "2 Background",
+      "3 Proposed methodology",
+      "4 Numerical illustration",
+      "5 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

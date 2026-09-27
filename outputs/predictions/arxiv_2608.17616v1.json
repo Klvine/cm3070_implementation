@@ -1,0 +1,78 @@
+{
+  "file": "arxiv_2608.17616v1.pdf",
+  "title": "MoNe: Modular Neural Memory for Efficient Long Context Inference",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Computer Science",
+    "alternatives": [
+      {
+        "label": "Computer Science",
+        "confidence": 0.999
+      },
+      {
+        "label": "Computer Engineering",
+        "confidence": 0.0
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "alternatives": [
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.138
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.086
+      },
+      {
+        "label": "Computing and Society",
+        "confidence": 0.082
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.747,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "evaluation",
+          "sentence": "Results are grouped by whether the input length falls within or generalization to out-of-training-distribution sequence lengths. beyond the model’s training context length (32K tokens), assessing Within model context length Beyond model context length Task Method 4K 8K ICL 0.95 0.98 S-NIAH RAG 0.94 0.93 MoNe (ours) 1.00 1.00 ICL 0.89 0.84 MK-NIAH RAG 0.92 0.91 MoNe (ours) 1.00 0.99 ICL 0.59 0.57 F"
+        },
+        {
+          "section": "evaluation",
+          "sentence": "MoNe achieves near-perfect Sub-EM across all tasks and context lengths (0.99–1.00), substantially outperforming ICL (0.41– 0.98) and RAG (0.58–0.93)."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 1
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "MoNe generalizes to context lengths far beyond the backbone’s native window, achieving strong performance on needle-ina-haystack and word extraction benchmarks from RULER, where ICL degrades sharply."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 10,
+    "two_column_pages": 9,
+    "sections": [
+      "Abstract",
+      "1. Introduction",
+      "2. Related Work",
+      "3. MoNe: Modular Neural Memory for",
+      "4. Experiments",
+      "5. Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

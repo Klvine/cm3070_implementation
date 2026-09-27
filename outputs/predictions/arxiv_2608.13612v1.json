@@ -1,0 +1,88 @@
+{
+  "file": "arxiv_2608.13612v1.pdf",
+  "title": "SemPlan: Benchmarking Structured Semantic Planning for LLM-Based Queries over Enterprise Data",
+  "arxiv_category_on_pdf": "cs.AI",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 0.919
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.039
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.033
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.132
+      },
+      {
+        "label": "Cybersecurity",
+        "confidence": 0.109
+      },
+      {
+        "label": "Natural Language Processing",
+        "confidence": 0.089
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.58,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "Four architectures are compared under the same model configuration: direct SQL generation (A1), a bounded tool-agent baseline (A2), structured semantic-request generation followed by deterministic planning and execution (A3), and a clarification/stateful semantic-plan variant (A4)."
+        },
+        {
+          "section": "introduction",
+          "sentence": "First, it introduces a bilingual synthetic benchmark for controlled evaluation of LLM-mediated structured enterprise-data queries."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "SemPlan Benchmark evaluates this architectural design space with a deterministic synthetic bilingual benchmark containing 1,800 cases in English and Brazilian Portuguese; 1,200 cases form the frozen scientific evaluation subset."
+    }
+  ],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 11,
+    "two_column_pages": 0,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Related Work",
+      "3 Research Questions and Pre-Specified Hypotheses",
+      "4 SemPlan Benchmark",
+      "5 Evaluated Approaches",
+      "6 Experimental Setup",
+      "7 Results",
+      "8 Failure Analysis",
+      "9 Stability, Ambiguity, and Multi-Turn Behavior",
+      "10 Cost and Operational Results",
+      "11 Discussion",
+      "12 Threats to Validity",
+      "13 Limitations",
+      "14 Reproducibility and Ethics",
+      "15 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}

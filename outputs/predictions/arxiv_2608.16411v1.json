@@ -1,0 +1,65 @@
+{
+  "file": "arxiv_2608.16411v1.pdf",
+  "title": "Towards Risk-free AI Agent Deployment",
+  "arxiv_category_on_pdf": "cs.SE",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 0.997
+      },
+      {
+        "label": "Information Systems",
+        "confidence": 0.003
+      },
+      {
+        "label": "Other",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.183
+      },
+      {
+        "label": "Computing and Society",
+        "confidence": 0.08
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.076
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Design and Creation",
+      "confidence": 0.659,
+      "decided_by": "model only (no applied evidence found)",
+      "evidence": [],
+      "mentions_in_related_work_or_citations": 0
+    }
+  ],
+  "data_generation_methods": [],
+  "data_analysis_approach": "Quantitative",
+  "document_structure": {
+    "pages": 12,
+    "two_column_pages": 0,
+    "sections": [
+      "1 Industrial Transformation",
+      "2 Agents as a Reactive System",
+      "3 Challenges in Testing Agents",
+      "4 Challenges in Debugging Agents",
+      "5 Deployment Readiness: A Checklist for Organizations",
+      "6 Open Research Questions for the Community",
+      "7 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings+abstract_fallback"
+  }
+}

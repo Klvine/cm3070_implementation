@@ -1,0 +1,101 @@
+{
+  "file": "arxiv_2608.17214v1.pdf",
+  "title": "Oracles That Cannot Fail: Anchoring and the Expectation That Moves With the Fault",
+  "arxiv_category_on_pdf": "cs.SE",
+  "discipline": {
+    "label": "Software Engineering",
+    "alternatives": [
+      {
+        "label": "Software Engineering",
+        "confidence": 0.981
+      },
+      {
+        "label": "Information Technology",
+        "confidence": 0.011
+      },
+      {
+        "label": "Computer Science",
+        "confidence": 0.006
+      }
+    ]
+  },
+  "field": {
+    "label": "Software Engineering and Programming Languages",
+    "alternatives": [
+      {
+        "label": "Software Engineering and Programming Languages",
+        "confidence": 0.136
+      },
+      {
+        "label": "Artificial Intelligence and Machine Learning",
+        "confidence": 0.109
+      },
+      {
+        "label": "Other",
+        "confidence": 0.076
+      }
+    ]
+  },
+  "research_strategies": [
+    {
+      "strategy": "Experiment",
+      "confidence": 0.758,
+      "decided_by": "rules and model",
+      "evidence": [
+        {
+          "section": "body",
+          "sentence": "The first reading of this ablation concluded the opposite."
+        },
+        {
+          "section": "body",
+          "sentence": "It is tempting to read the ablation as saying that the channel the literature has named costs one mutant while the channel it has never named costs 8."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 3
+    },
+    {
+      "strategy": "Simulation",
+      "confidence": 0.7,
+      "decided_by": "rules",
+      "evidence": [
+        {
+          "section": "abstract",
+          "sentence": "The subject is a deployed air traffic control simulator with 12 model-free property suites."
+        },
+        {
+          "section": "body",
+          "sentence": "SECTOR is a deployed air traffic control simulator written in TypeScript."
+        }
+      ],
+      "mentions_in_related_work_or_citations": 3
+    }
+  ],
+  "data_generation_methods": [
+    {
+      "method": "Datasets and Benchmarks",
+      "evidence": "Every quantity in this paper is emitted by one program, which reads the raw Stryker reports and computes scores, diffs, per-function breakdowns and the published dataset."
+    }
+  ],
+  "data_analysis_approach": "Not determined",
+  "document_structure": {
+    "pages": 34,
+    "two_column_pages": 2,
+    "sections": [
+      "Abstract",
+      "1 Introduction",
+      "2 Background and related work",
+      "3 The system and its invariant suites",
+      "4 Study design",
+      "5 Results",
+      "6 Oracle anchoring",
+      "7 Measuring the mechanism",
+      "8 Writing the missing oracle, and what it caught",
+      "9 Threats to validity",
+      "10 Propagation distance as a rival explanation",
+      "11 Implications",
+      "12 Conclusion",
+      "References"
+    ],
+    "segmentation": "headings"
+  }
+}
